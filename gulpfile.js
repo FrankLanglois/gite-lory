@@ -131,9 +131,14 @@ gulp.task('clean.bootstrap', function(done) {
     rimraf("dist/vendor/*bootstrap/css/bootstrap.css", done);
 });
 
-gulp.task('copy.font-awesome', function() {
+gulp.task('copy.font-awesome-css', function() {
     return gulp.src("vendor/font-awesome/css/font-awesome.min.css")
         .pipe(gulp.dest("dist/vendor/font-awesome/css/"));
+});
+
+gulp.task('copy.font-awesome-fonts', function() {
+    return gulp.src('node_modules/font-awesome/fonts/**')
+        .pipe(gulp.dest('dist/vendor/font-awesome/fonts'))
 });
 
 gulp.task('copy.jquery', function() {
@@ -150,7 +155,8 @@ gulp.task('build.prod', function(done){
         'copy.images',
         'copy.bootstrap',
         'clean.bootstrap',
-        'copy.font-awesome',
+        'copy.font-awesome-css',
+        'copy.font-awesome-fonts',
         'copy.jquery',
         done);
 });
