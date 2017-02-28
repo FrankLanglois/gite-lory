@@ -59,11 +59,11 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #470022;
+  border-color: #6d0034;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #470022;
+  color: #6d0034;
 }
 .img-centered {
   margin: 0 auto;
@@ -114,7 +114,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #470022;
+  background: #6d0034;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -173,9 +173,9 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
-    background: #470022;
+    background: #6d0034;
     /* For browsers that do not support gradients */
-    background: linear-gradient(#470022, #ad0052);
+    background: linear-gradient(#6d0034, #ad0052);
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -359,14 +359,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #470022;
+  background-color: #6d0034;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #2e0016;
+  background-color: #530028;
 }
 .btn-outline {
   color: white;
@@ -386,8 +386,8 @@ footer .footer-below {
 }
 .btn-primary {
   color: white;
-  background-color: #470022;
-  border-color: #470022;
+  background-color: #6d0034;
+  border-color: #6d0034;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -396,8 +396,8 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #14000a;
-  border-color: #0a0005;
+  background-color: #3a001c;
+  border-color: #300017;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -419,11 +419,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #470022;
-  border-color: #470022;
+  background-color: #6d0034;
+  border-color: #6d0034;
 }
 .btn-primary .badge {
-  color: #470022;
+  color: #6d0034;
   background-color: white;
 }
 .btn-success {
@@ -537,7 +537,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #470022;
+  background-color: #6d0034;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -548,7 +548,7 @@ fieldset[disabled] .btn-success.active {
 .picture-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #470022;
+  background-color: #6d0034;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -594,4 +594,15 @@ fieldset[disabled] .btn-success.active {
     width: 55px;
     padding: 5px 0 0 5px;
   }
+}
+.outside-link {
+  color: #6d0034;
+  font-size: 90%;
+  text-decoration: underline;
+}
+.outside-link:hover {
+  color: #B15983;
+}
+.outside-link:active {
+  color: #6d0034;
 }
