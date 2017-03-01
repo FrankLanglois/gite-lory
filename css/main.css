@@ -595,14 +595,25 @@ fieldset[disabled] .btn-success.active {
     padding: 5px 0 0 5px;
   }
 }
-.outside-link {
+.outside-link-first {
   color: #6d0034;
   font-size: 90%;
   text-decoration: underline;
 }
-.outside-link:hover {
+.outside-link-first:hover {
   color: #B15983;
 }
-.outside-link:active {
+.outside-link-first:active {
+  color: #6d0034;
+}
+.outside-link-second {
+  color: #6d0034;
+  font-size: 90%;
+  text-decoration: underline;
+}
+.outside-link-second:hover {
+  color: #D58EAF;
+}
+.outside-link-second:active {
   color: #6d0034;
 }

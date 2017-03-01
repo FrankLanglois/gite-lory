@@ -586,12 +586,24 @@ footer {
   }
 }
 
-.outside-link {
+.outside-link-first {
   color: @theme-primary;
   font-size: 90%;
   text-decoration: underline;
   &:hover {
     color: @theme-success;
+  }
+  &:active {
+    color: @theme-primary;
+  }
+}
+
+.outside-link-second {
+  color: @theme-primary;
+  font-size: 90%;
+  text-decoration: underline;
+  &:hover {
+    color: @theme-brand;
   }
   &:active {
     color: @theme-primary;
