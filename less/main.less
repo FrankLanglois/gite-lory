@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+h1::after {
+  clear: both;
+}
+
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -203,15 +207,14 @@ header {
 
 @media (min-width: @screen-sm-min) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     background: @theme-primary; /* For browsers that do not support gradients */
     background: linear-gradient(@theme-primary, @theme-primary-gradient);
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     .navbar-brand {
-
-      font-size: 5em;
+      font-size: 2em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -222,7 +225,7 @@ header {
   .navbar-custom.affix {
     padding: 10px 0;
     .navbar-brand {
-      font-size: 3em;
+      font-size: 1.5em;
     }
   }
 }
@@ -579,7 +582,7 @@ footer {
 }
 
 .img-navbar {
-  width: 90px; padding-left: 10px;
+  width: 90px; padding: 25px 0 0 15px;
 
   @media(max-width: @screen-md-max) {
     width:55px; padding: 5px 0 0 5px;
