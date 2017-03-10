@@ -144,12 +144,12 @@ header .intro-text .skills {
   font-size: 1.25em;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: rgba(177, 89, 131, 0.7);
+  color: #dddddd;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: #6A123C;
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
