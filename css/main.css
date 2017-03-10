@@ -29,7 +29,6 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
 }
 h1::after {
@@ -142,6 +141,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a {
   color: white;
+  font-size: 1.25em;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: rgba(177, 89, 131, 0.7);
@@ -581,11 +581,11 @@ fieldset[disabled] .btn-success.active {
   }
 }
 .img-width {
-  width: 75%;
+  width: 65%;
 }
 @media (max-width: 991px) {
   .img-width {
-    width: 100%;
+    width: 90%;
   }
 }
 .img-navbar {
@@ -619,4 +619,27 @@ fieldset[disabled] .btn-success.active {
 }
 .outside-link-second:active {
   color: #b20054;
+}
+.ul-bigger {
+  font-size: 1.2em;
+}
+.map {
+  width: 65%;
+  height: 350px;
+  border: 0;
+  margin: 0 13%;
+}
+@media (max-width: 991px) {
+  .map {
+    width: 80%;
+    height: 300px;
+    margin: 0 10%;
+  }
+}
+@media (max-width: 767px) {
+  .map {
+    width: 90%;
+    height: 250px;
+    margin: 0 5%;
+  }
 }
