@@ -41,7 +41,7 @@ hr.star-primary {
   border-top: solid 5px;
   text-align: center;
   max-width: 250px;
-  margin: 25px auto 15px;
+  margin: 25px auto 25px;
 }
 
 hr.star-light:after,
@@ -205,6 +205,15 @@ header {
     }
   }
 }
+@media (max-width: @screen-xs) {
+  .navbar-brand {
+    font-size: 0.75em;
+
+  }
+  h1 {
+    margin: 0;
+  }
+}
 
 @media (min-width: @screen-sm-min) {
   .navbar-custom {
@@ -220,13 +229,14 @@ header {
       -moz-transition: all 0.3s;
       transition: all 0.3s;
       color: @theme-brand;
+
     }
   }
 
   .navbar-custom.affix {
     padding: 10px 0;
     .navbar-brand {
-      font-size: 1.5em;
+      font-size: 1.50000000000000000000000000000000000000000000000000000000000000000000000000000000000000em;
     }
   }
 }
@@ -586,7 +596,7 @@ footer {
   width: 90px; padding: 25px 0 0 15px;
 
   @media(max-width: @screen-md-max) {
-    width:55px; padding: 5px 0 0 5px;
+    width:55px; padding: 10px 0 10px 5px;
   }
 }
 
