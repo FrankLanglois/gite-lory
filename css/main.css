@@ -93,6 +93,9 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+.container-header {
+  margin-top: 50px;
+}
 @media (min-width: 768px) {
   header .container {
     padding-top: 180px;
@@ -177,8 +180,20 @@ header .intro-text .skills {
   .navbar-brand {
     font-size: 0.75em;
   }
+  .navbar-custom {
+    background: linear-gradient(#b20054, #670067);
+  }
+  .navbar-toggle {
+    margin: 25px 25px 0 0;
+  }
+  .img-navbar {
+    margin-top: 15px;
+  }
   h1 {
-    margin: 0;
+    margin: 20px 0 0 0;
+  }
+  .container-header {
+    margin-top: 20px;
   }
 }
 @media (min-width: 768px) {

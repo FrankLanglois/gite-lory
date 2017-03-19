@@ -106,6 +106,10 @@ header {
   }
 }
 
+.container-header {
+  margin-top: 50px;
+}
+
 @media (min-width: @screen-sm-min) {
   header {
     .container {
@@ -205,14 +209,33 @@ header {
     }
   }
 }
+
 @media (max-width: @screen-xs) {
+
   .navbar-brand {
     font-size: 0.75em;
+  }
 
+  .navbar-custom {
+    background: linear-gradient(@theme-primary, @theme-primary-gradient);
   }
+
+  .navbar-toggle {
+    margin: 25px 25px 0 0;
+  }
+
+  .img-navbar {
+    margin-top: 15px;
+  }
+
   h1 {
-    margin: 0;
+    margin: 20px 0 0 0;
   }
+
+  .container-header {
+    margin-top: 20px;
+  }
+
 }
 
 @media (min-width: @screen-sm-min) {
@@ -593,10 +616,12 @@ footer {
 }
 
 .img-navbar {
-  width: 90px; padding: 25px 0 0 15px;
+  width: 90px;
+  padding: 25px 0 0 15px;
 
   @media(max-width: @screen-md-max) {
-    width:55px; padding: 10px 0 10px 5px;
+    width:55px;
+    padding: 10px 0 10px 5px;
   }
 }
 
